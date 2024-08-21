@@ -50,3 +50,21 @@ nav a:hover {
     color: #fff;
     border-radius: 5px;
 }
+
+
+@media (max-width: 768px) {
+    header {
+        border-radius: 0px;
+    }
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    nav a {
+        padding: 8px 15px;
+        margin: 4px;
+    }
+    .content {
+        padding: 15px;
+    }
+}
