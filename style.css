@@ -24,6 +24,7 @@ nav {
     flex-wrap: wrap;
 }
 nav a {
+    display: flex;
     text-decoration: none;
     color: #fff;
     background: #007BFF;
@@ -31,6 +32,9 @@ nav a {
     border-radius: 5px;
     margin: 5px;
     transition: background 0.3s;
+    width: 150px;
+    justify-content: center;
+
 }
 nav a:hover {
     background: #0056b3;
@@ -67,6 +71,7 @@ nav a:hover {
     nav a {
         padding: 8px 15px;
         margin: 4px;
+        width: 90%;
     }
     .content {
         padding: 15px;
