@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    overflow-x: hidden;
 }
 .container {
     width: 60%;
@@ -62,6 +63,7 @@ nav a:hover {
     .container {
         width: 100%;
         padding: 10px;
+        box-sizing: border-box;
     }
     nav {
         flex-direction: column;
