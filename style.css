@@ -152,27 +152,28 @@ nav a:hover {
     padding: 20px 10px;
 }
 
-ul {
+/* ul {
     padding-left: 20px;
     padding-left: 0px;
     list-style: none;
+} */
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+  
+ul li::before {
+  content: "✦";
+  color: #8b5cf6;
+  margin-right: 6px;
 }
 
 b {
     font-style: italic;
     font-size: 16px;
-}
-
-ul.angelic-list {
-    padding-left: 0px;
-    list-style: none;
-}
-
-ul.angelic-list li::before {
-    content: '✦';
-    color: #a36bff;
-    margin-right: 10px;
-    font-size: 1.1em;
+    cursor: pointer;
+    user-select: none;
 }
 
 li {
